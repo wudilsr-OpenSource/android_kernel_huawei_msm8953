@@ -219,7 +219,7 @@ source "drivers/sensors/Kconfig"
 
 source "drivers/hwsensor/Kconfig"
 
-source "drivers/../../../vendor/qcom/opensource/wlan/prima/Kconfig"
+source "drivers/staging/prima/Kconfig"
 
 source "drivers/hwusb/Kconfig"
 
