@@ -32,8 +32,8 @@
 #elif defined(CONFIG_HAS_EARLYSUSPEND)
 #include <linux/earlysuspend.h>
 #endif
-#include <huawei_ts_kit.h>
-#include <huawei_ts_kit_misc_dev.h>
+#include "huawei_ts_kit.h"
+#include "huawei_ts_kit_misc_dev.h"
 //#ifdef CONFIG_HUAWEI_HW_DEV_DCT
 //#include <huawei_platform/devdetect/hw_dev_dec.h>
 //#endif
