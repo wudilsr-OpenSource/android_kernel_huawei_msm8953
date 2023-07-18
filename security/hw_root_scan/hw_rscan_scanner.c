@@ -10,9 +10,9 @@
  * Copyright (c) 2001-2021, Huawei Tech. Co., Ltd. All rights reserved.
  */
 
-#include "./include/hw_rscan_scanner.h"
-#include "./include/hw_rscan_utils.h"
-#include "./include/hw_rscan_whitelist.h"
+#include "include/hw_rscan_scanner.h"
+#include "include/hw_rscan_utils.h"
+#include "include/hw_rscan_whitelist.h"
 
 #define VAR_NOT_USED(variable)  do{(void)(variable);}while(0);
 #define KCODE_OFFSET 0
