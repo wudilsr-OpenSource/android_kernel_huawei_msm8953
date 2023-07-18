@@ -15,10 +15,10 @@
 #include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/types.h>
-#include "./include/hw_rscan_utils.h"
-#include "./include/hw_rscan_data_uploader.h"
-#include "./include/hw_rscan_scanner.h"
-#include "./include/hw_rscan_proc.h"
+#include "include/hw_rscan_utils.h"
+#include "include/hw_rscan_data_uploader.h"
+#include "include/hw_rscan_scanner.h"
+#include "include/hw_rscan_proc.h"
 
 static int __init rscan_module_init(void);
 static void __exit rscan_module_exit(void);

@@ -20,7 +20,7 @@
 #include <linux/slab.h>
 #include <linux/sort.h>
 #include <linux/string.h>
-#include "./include/hw_rscan_utils.h"
+#include "include/hw_rscan_utils.h"
 #include <linux/version.h>
 
 #define MAX_PROC_NUM 128 /* 128 root processes should be enough for anybody */

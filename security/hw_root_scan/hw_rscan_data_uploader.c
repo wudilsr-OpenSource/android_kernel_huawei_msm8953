@@ -9,7 +9,7 @@
  * Copyright (c) 2001-2021, Huawei Tech. Co., Ltd. All rights reserved.
  */
 
-#include "./include/hw_rscan_data_uploader.h"
+#include "include/hw_rscan_data_uploader.h"
 
 static const char *TAG = "hw_rscan_data_uploader";
 
