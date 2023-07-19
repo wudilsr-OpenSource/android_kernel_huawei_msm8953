@@ -677,6 +677,10 @@ KBUILD_CFLAGS   += -O2
 endif
 endif
 
+ifdef CONFIG_CC_WERROR
+KBUILD_CFLAGS	+= -Werror
+endif
+
 KBUILD_CFLAGS += $(call cc-ifversion, -lt, 0409, \
 			$(call cc-disable-warning,maybe-uninitialized,))
 
